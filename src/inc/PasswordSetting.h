@@ -1,0 +1,4 @@
+#ifndef PASSWORDSETTING_H_
+#define PASSWORDSETTING_H_
+
+#endif /*PASSWORDSETTING_H_*/

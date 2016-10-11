@@ -1,0 +1,52 @@
+/*
+============================================================================
+ Name		: S60RemoteLock.hrh
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This file contains declarations for constants of S60RemoteLock.
+			   The file can be included in C++ or resource file.
+============================================================================
+*/
+#ifndef __S60REMOTELOCK_HRH__
+#define __S60REMOTELOCK_HRH__
+
+#define _UID3 0x20023C7B
+
+// S60RemoteLock enumerate command codes
+enum TS60RemoteLockCommandIds
+    {
+    EStart = 1,  // start value must not be 0
+    EHelp,
+    EAbout,
+    EBacground,
+    ESelectItems,
+    EBack,
+    EExit,
+    ETestContact,
+    ETestSms,
+    ETestCalender,
+    ETestImage,
+    ETestVideo,
+    ETestSound,
+    ETestNote    
+    };
+
+// S60RemoteLock application view ids.
+enum TS60RemoteLockViewNumber
+    {
+    EPasswordViewId = 1,
+    EConfigureViewId,
+    EItemSelectionViewId
+    };
+        
+// TSettingItems - identifiers for individual setting items
+enum TSettingItems
+    {
+	ESettingSMS = 1,
+	ESettingNumber,
+	ESettingMode,
+	ESettingPassword,	
+	ESettingPopupList
+    };   
+    
+#endif // __S60REMOTELOCK_HRH__

@@ -1,0 +1,9 @@
+Release(Intermediate) note : version 0.4.0
+Features Covered:
+GUI Module
+   a. Bug Resolved
+   b. Menu for Delete Items(Finaly it will not exists)
+   c. All functionalities (Without Notes delete-currently on deleting notes FIles under Documents will be deleted)
+   d. For testing purpose SMS body and sender number is written in a test file in C:\\S60RemoteMessageTest.txt
+
+    
